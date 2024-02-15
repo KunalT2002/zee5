@@ -1,0 +1,102 @@
+body{
+    background-color: #0F0617;
+    color: white;
+}
+form{
+    border: 1px solid rgb(102, 98, 98);
+}
+i{
+    color: white;
+}
+nav{
+    z-index: 1;
+    position: fixed;
+}
+#slid{
+    position: relative;
+    top: 90px;
+}
+.carousel-item{
+    width: 70%;
+    margin: 0px 15%;
+}
+#b1{
+    position: relative;
+    background-color: black;
+    top: -50px;
+    left: 10px;
+    box-shadow: 0px 0px 100px 40px black;
+}
+#b2{
+    position: relative;
+    top: -82px;
+    left: 110px;
+    box-shadow: 0px 0px 100px 50px black;
+}
+.hm{
+    margin-left: 50px;
+}
+.im{
+    height: 320px;
+    border-radius: 6px;
+    margin: 5px;
+}
+.im:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.sug{
+    height: 370px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+ul a{
+    text-decoration: none;
+    color: #726f76;
+    list-style: none;
+    font-weight: lighter;
+}
+@media (min-width:901px) and (max-width:1200px) {
+    #mob{
+        display: none;
+    }
+    .hm{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:900px) {
+    #slid{
+        position: relative;
+        top: 140px;
+    }
+    #sug{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        height: 40px;
+        background: #0F0617;
+    }
+    #mob{
+        display: none;
+    }
+    #bp{
+        position: absolute;
+        left: 100px;
+    }
+    form{
+        border: 0;
+    }
+    .btn{
+        background: rgb(31, 30, 30);
+        border-radius: 50%;
+    }
+    .carousel-item{
+        width: 100%;
+        margin: 0;
+    }
+    .hm{
+        margin-left: 10px;
+    }
+}
